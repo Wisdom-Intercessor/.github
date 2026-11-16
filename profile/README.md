@@ -62,6 +62,13 @@ flowchart TB
 
 The nine-layer framework is shared across all three realms. Shared architecture does not mean identical software, duplicate deployments or simultaneous implementation.
 
+## Domain and project distinction
+
+- **WisdomLand — wisdomland.ir:** The official domain of Realm II within the Wisdom Intercessor ecosystem. Its architecture and repository remain under the Wisdom-Intercessor organization.
+- **Wisland — wisland.ir:** A separate, independent commercial-social real-estate project. It is not an alternative name, domain alias, repository, or operational subsystem of WisdomLand.
+
+The similarity of the names does not imply shared project ownership or interchangeable domains. Keep their documentation, repositories, product scope and public links distinct.
+
 ## Explore the ecosystem
 
 - [WisdomCore](https://github.com/Wisdom-Intercessor/WisdomCore) — Layer 0 architecture authority.
