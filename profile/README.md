@@ -1,145 +1,191 @@
-# حکمت شفیع — Wisdom Intercessor
+# حکمت شفیع | Wisdom Intercessor
 
 **حکمت برای همه، همه برای حکمت جاویدان**  
 *Wisdom for all; all for eternal wisdom.*
 
-Wisdom Intercessor (حکمت شفیع) پروژه مادر، تنه پیونددهنده و زیرساخت مشترک زیست‌بوم حکمت است؛ چارچوبی انسان‌محور برای پیوند انسان خردمند، جهان ساخته و پیوندی انسان، و جهان بزرگ‌تر هستی. هدف بلندمدت، احیا یا ساختن **آرمان‌شهر حکمت (Wisdom Utopia)** و تمدنی حکمت‌محور است.
+**Wisdom Intercessor** هویت مادر، مأموریت و چارچوب راهبردی زیست‌بوم حکمت است؛ چشم‌اندازی انسان‌محور برای پیوند انسان، جهان ساخته و پیوندی انسان، و جهان بزرگ‌تر هستی. مقصد بلندمدت آن شکل‌دادن به **آرمان‌شهر حکمت (Wisdom Utopia)** و تمدنی خردمحور، مسئولانه و پایدار است.
 
-- **درگاه و پروژه مادر:** [wisdomintercessor.com](https://wisdomintercessor.com)
+- **درگاه و هویت مادر:** [wisdomintercessor.com](https://wisdomintercessor.com)
 - **مرجع معماری و لایه صفر:** [WisdomCore](https://github.com/Wisdom-Intercessor/WisdomCore)
-- **قلمرو و زیست‌بوم پیوندی:** [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand) · [wisdomland.ir](https://wisdomland.ir) (پیاده‌سازی ملی، مشروط به تأیید و آمادگی)
-- **تجربه سه‌صفحه‌ای:** **Wis · Dom · Land** — در مجموع **WisDomLand**
-- **معماری:** یک لایه صفر + هشت خانواده لایه عملیاتی؛ چهار ریشه بنیادین
+- **تنه درخت حکمت:** [WisdomEconomy](https://github.com/Wisdom-Intercessor/WisdomEconomy)
+- **درگاه و تجربه یکپارچه سه قلمرو:** [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand)
+- **تجربه سه‌گانه:** **Wis · Dom · Land** (WisDomLand)
+- **ساختار مفهومی درخت:** پنج ریشه بنیادین + هسته WisdomCore (L0) + تنه WisdomEconomy + هشت شاخه کلان
 
 ---
 
 ## 1. هویت و معماری کلان
 
-Wisdom Intercessor تنه و زیرساخت پیونددهنده زیست‌بوم است. WisdomCore مرجع معماری، استانداردها، ثبت و هماهنگی در Layer 0 است. چهار ریشه بنیادین چارچوب مفهومی و روش‌شناختی را شکل می‌دهند؛ هشت خانواده لایه عملیاتی مسئولیت‌های سامانه‌ای را پوشش می‌دهند.
+معماری Wisdom Intercessor بر تفکیک هویت، معماری، قلمرو، دامنه‌های تمدنی، سامانه‌های اجرایی و محصولات استوار است:
+
+1. **Wisdom Intercessor** هویت مادر و مأموریت زیست‌بوم است؛ نه تنه درخت.
+2. **WisdomCore (L0)** هسته فرادست و مرجع معماری، استانداردها، رجیستری‌ها، تصمیم‌های معماری و انسجام میان اجزاست.
+3. **پنج ریشه بنیادین** مبانی هستی‌شناختی، معرفت‌شناختی، ارزش‌شناختی، کنش‌شناختی و غایت‌شناختی را فراهم می‌کنند.
+4. **WisdomEconomy** تنه درخت حکمت است؛ ریشه‌ها و هسته را به شاخه‌ها پیوند می‌دهد و هماهنگی اقتصادی میان‌دامنه‌ای و سبد قابلیت‌ها و محصولات افقی اقتصادی را سامان می‌دهد.
+5. **هشت شاخه کلان** مسائل و حوزه‌های تمدنی را سازمان می‌دهند؛ این شاخه‌ها با سامانه‌ها، لایه‌های اجرایی یا مخازن GitHub یکی نیستند.
+6. **سامانه‌ها و محصولات اجرایی** ابزارهای تحقق مأموریت‌اند و از طریق رجیستری و روابط کنترل‌شده به یک یا چند دامنه خدمت می‌کنند.
+7. **Wis · Dom · Land** سه قلمرو/زمینه تجربه‌اند و معماری را از منظر انسان، جهان ساخته و جهان بیرونی قابل پیمایش می‌کنند.
+
+### نمای مفهومی درخت حکمت
 
 ```mermaid
 flowchart TB
-  WI["Wisdom Intercessor<br/>Parent identity · Connecting trunk"]
-  ROOTS["FOUR FOUNDATIONAL ROOTS<br/>Ontology · Epistemology · Axiology · Praxeology"]
-  L0["LAYER 0 · WisdomCore<br/>Meta-architecture · Standards · Registry · Architecture Governance"]
-  WI --- ROOTS
-  WI --> L0
-  L0 --> LAYERS
-
-  subgraph LAYERS["EIGHT OPERATIONAL LAYER FAMILIES"]
-    direction TB
-    L1["L1 · WisdomNetwork"]
-    L2["L2 · WisdomChain"]
-    L3["L3 · WisdomTreasury"]
-    L4["L4 · WisdomKnowledge"]
-    L5["L5 · WisdomGuard"]
-    L6["L6 · WisdomGovernance & Justice"]
-    L7["L7 · WisdomLife & Health"]
-    L8["L8 · Wisdom of Existence & Time"]
+  ID["Wisdom Intercessor<br/>هویت مادر و مأموریت زیست‌بوم"]
+  subgraph ROOTS["پنج ریشه بنیادین"]
+    O["WisdomOntology"]
+    E["WisdomEpistemology"]
+    A["WisdomAxiology"]
+    P["WisdomPraxeology"]
+    T["WisdomTeleology"]
   end
-
-  WI --> EXPERIENCE["Wis · Dom · Land<br/>Integrated experience: WisDomLand"]
-  EXPERIENCE --> WIS["Wis · Page 1<br/>عالِم صغری · Wise Human"]
-  EXPERIENCE --> DOM["Dom · Page 2<br/>عَـالَم صغری · Human-created / connective realm"]
-  EXPERIENCE --> LAND["Land · Page 3<br/>عالم کبری · Greater World"]
+  CORE["WisdomCore · L0<br/>هسته فرادست و مرجع معماری"]
+  TRUNK["WisdomEconomy<br/>تنه درخت حکمت"]
+  subgraph BRANCHES["هشت شاخه کلان تمدنی · D01–D08"]
+    D1["D01"] 
+    D2["D02"]
+    D3["D03"]
+    D4["D04"]
+    D5["D05"]
+    D6["D06"]
+    D7["D07"]
+    D8["D08"]
+  end
+  PORT["سامانه‌ها، محصولات و مخازن اجرایی<br/>با روابط مالکیت و وابستگی مستقل"]
+  ID --> ROOTS
+  ROOTS --> CORE
+  CORE --> TRUNK
+  TRUNK --> BRANCHES
+  TRUNK -. "هماهنگی و قابلیت‌های افقی" .-> PORT
+  BRANCHES --> PORT
 ```
 
-**اصول ساختاری:** Layer 0 با هشت خانواده عملیاتی اشتباه گرفته نمی‌شود؛ ریشه‌های بنیادین، لایه عملیاتی جدید نیستند؛ تجربه WisDomLand صفحه یا قلمرو چهارم نیست؛ و WisdomLand (نام کامل آرمان‌شهر) با برچسب صفحه Land یکی نیست.
+**یادداشت وضعیت:** D01–D08 شناسه‌های دامنه‌های کلان در چارچوب طبقه‌بندی تمدنی‌اند. نام‌گذاری نهایی، مرزها و نگاشت قطعی آن‌ها تابع تکمیل شواهد، بررسی هم‌پوشانی و شکاف‌ها و تصویب کنترل‌شده است. این نمودار به‌معنای نهایی‌شدن طبقه‌بندی یا استقرار سامانه‌ها نیست.
 
----
+## 2. پنج ریشه بنیادین | Foundational Roots
 
-## 2. چهار ریشه بنیادین | Foundational Roots
-
-| ریشه | Repository | مسئولیت بنیادین |
+| ریشه | مخزن | مسئولیت بنیادین |
 |---|---|---|
-| **هستی‌شناسی · Ontology** | [WisdomOntology](https://github.com/Wisdom-Intercessor/WisdomOntology) | تعریف هستی‌ها، مفاهیم، موجودیت‌ها، روابط، طبقه‌بندی‌ها و مدل جهان |
-| **معرفت‌شناسی · Epistemology** | [WisdomEpistemology](https://github.com/Wisdom-Intercessor/WisdomEpistemology) | ادعا، شواهد، منشأ، اعتبار، استدلال، عدم‌قطعیت و بازنگری معرفتی |
-| **ارزش‌شناسی · Axiology** | [WisdomAxiology](https://github.com/Wisdom-Intercessor/WisdomAxiology) | ارزش‌ها، اخلاق، کرامت، حقوق، عدالت، مسئولیت و ارزیابی پیامدها |
-| **کنش‌شناسی / عمل‌شناسی · Praxeology** | [WisdomPraxeology](https://github.com/Wisdom-Intercessor/WisdomPraxeology) | هدف، گزینه‌ها، تصمیم، اختیار، برنامه، اقدام، نتیجه و بازخورد |
+| **هستی‌شناسی · Ontology** | [WisdomOntology](https://github.com/Wisdom-Intercessor/WisdomOntology) | هستی‌ها، مفاهیم، موجودیت‌ها، روابط و طبقه‌بندی‌ها |
+| **معرفت‌شناسی · Epistemology** | [WisdomEpistemology](https://github.com/Wisdom-Intercessor/WisdomEpistemology) | دانش، ادعا، شواهد، منشأ، روش، عدم‌قطعیت و اصلاح |
+| **ارزش‌شناسی · Axiology** | [WisdomAxiology](https://github.com/Wisdom-Intercessor/WisdomAxiology) | ارزش‌ها، اخلاق، کرامت، حقوق، عدالت و مسئولیت |
+| **کنش‌شناسی · Praxeology** | [WisdomPraxeology](https://github.com/Wisdom-Intercessor/WisdomPraxeology) | کنش، گزینه‌ها، تصمیم، اختیار، برنامه، اجرا و بازخورد |
+| **غایت‌شناسی · Teleology** | [WisdomTeleology](https://github.com/Wisdom-Intercessor/WisdomTeleology) | هدف، غایت، مأموریت، چشم‌انداز و جهت |
 
-این چهار ریشه مکمل یکدیگرند و مرز مسئولیت دارند؛ هیچ‌یک به‌تنهایی مالک همه مفاهیم، ارزش‌ها، شواهد یا تصمیم‌های زیست‌بوم نیست.
+این پنج ریشه مکمل‌اند؛ هیچ‌کدام به‌تنهایی مالک تمام تصمیم‌ها یا داده‌های عملیاتی نیستند.
 
----
+## 3. هسته فرادست و تنه درخت
 
-## 3. لایه صفر و هشت خانواده عملیاتی
+### WisdomCore — Layer 0
 
-**Layer 0 — WisdomCore:** معماری مادر، استانداردهای مشترک، رجیستری، مرزبندی مسئولیت‌ها، وابستگی‌ها و حاکمیت تغییرات معماری.
+WisdomCore مرجع معماری مادر، اصول و استانداردهای مشترک، رجیستری دامنه‌ها و محصولات، تصمیم‌های معماری، کنترل نسخه، مرزبندی مسئولیت‌ها و ردیابی وابستگی‌هاست. WisdomCore مالک یا مخزن مرکزی تمام داده‌های عملیاتی محصولات نیست و جایگزین اختیار اجرایی سامانه‌های تخصصی نمی‌شود.
 
-| لایه | سامانه | حوزه مسئولیت |
+### WisdomEconomy — تنه درخت حکمت
+
+WisdomEconomy تنه پیونددهنده درخت است؛ ریشه‌ها و هسته را به شاخه‌ها متصل می‌کند و هماهنگی اقتصادی و منابعی را در سطح کل زیست‌بوم سامان می‌دهد. مسئولیت‌های آن:
+- معماری و اصول اقتصاد حکمت؛
+- هماهنگی جریان‌های ارزش و منابع میان دامنه‌ها؛
+- خانه سبد محصولات و قابلیت‌های افقی اقتصادی؛
+- تعریف رابط‌ها و قراردادهای اقتصادی میان سامانه‌ها؛
+- شفافیت، پاسخ‌گویی، حسابداری‌پذیری و ارزیابی ریسک اقتصادی؛
+- جلوگیری از جزیره‌ای‌شدن محصولات و تکرار زیرساخت‌ها.
+
+WisdomEconomy جایگزین WisdomCore نیست، مالک همه داده‌های شاخه‌ها نمی‌شود و به‌معنای تجمیع بی‌قید اطلاعات یا تمرکز تمام عملیات در یک سامانه نیست.
+
+### رابطه WeCoin، WisdomChain و WisdomTreasury
+
+- **WeCoin:** شیره و ثمره تنه WisdomEconomy در استعاره درخت؛ محصولی در سبد WisdomEconomy.
+- **WisdomChain (L2):** جایگاه فنی و زیرساخت پروتکلی WeCoin؛ رابطه فنی با رابطه سبد محصولی متفاوت است.
+- **WisdomTreasury:** سامانه تخصصی خزانه‌داری، حسابداری، تخصیص و امانت‌داری منابع؛ شریک یکپارچه‌سازی مشخص است، نه مالک یا والد WeCoin.
+
+این جایگاه‌ها معماری و مستندسازی‌اند و به‌خودی‌خود صدور توکن، کیف پول، پرداخت، معامله، پاداش یا عملیات خزانه‌داری را فعال نمی‌کنند.
+
+## 4. هشت شاخه کلان و سامانه‌های اجرایی
+
+هشت شاخه کلان درخت، دامنه‌های مسئله و حکمرانی تمدنی را دسته‌بندی می‌کنند. سامانه‌های عملیاتی مانند WisdomNetwork، WisdomChain و WisdomKnowledge ابزارها و زیرساخت‌های اجرایی‌اند. این دو طبقه نباید با یکدیگر خلط شوند.
+
+**قواعد طبقه‌بندی:**
+- تعداد شاخه‌های کلان در مدل هدف هشت است؛ ایجاد شاخه نهم یا تغییر تعداد بدون تصمیم معماری کنترل‌شده مجاز نیست.
+- شناسه‌های D01–D08 برای دامنه‌های کلان به‌کار می‌روند؛ L0 برای WisdomCore محفوظ است.
+- سامانه یا محصول می‌تواند به چند دامنه خدمت کند؛ این امر به‌معنای ایجاد شاخه جدید یا مالکیت مشترک مبهم نیست.
+- نگاشت هر سامانه به دامنه‌ها باید در رجیستری با نوع رابطه، شواهد و وضعیت اعتبار ثبت شود.
+- اسناد قدیمی که L1–L8 را برای هشت سامانه عملیاتی به‌کار برده‌اند، اسناد سامانه‌ای‌اند و نباید به‌عنوان تعریف خودکار هشت شاخه کلان تفسیر شوند.
+
+### سبد سامانه‌های عملیاتی ثبت‌شده
+
+| سامانه | مخزن مرجع | نقش اجرایی |
 |---|---|---|
-| **L1** | [WisdomNetwork](https://github.com/Wisdom-Intercessor/Wisdom-Network) | ارتباطات، رسانه، اتصال، تعامل و مشارکت شبکه‌ای |
-| **L2** | [WisdomChain](https://github.com/Wisdom-Intercessor/WisdomChain) | اعتماد، سوابق قابل‌راستی‌آزمایی، یکپارچگی و زیرساخت پروتکلی |
-| **L3** | [WisdomTreasury](https://github.com/Wisdom-Intercessor/Wisdom-Treasury) | خزانه، امانت‌داری منابع و زیرساخت اقتصادی |
-| **L4** | [WisdomKnowledge](https://github.com/Wisdom-Intercessor/WisdomKnowledge) | دانش، پژوهش، یادگیری، آموزش و هوشمندی؛ WisdomAI به‌عنوان زیرسامانه |
-| **L5** | [WisdomGuard](https://github.com/Wisdom-Intercessor/Wisdom-Guard) | امنیت، حفاظت، تاب‌آوری و ایمنی |
-| **L6** | [WisdomGovernance & Justice](https://github.com/Wisdom-Intercessor/Wisdom-Governance-Justice) | حکمرانی، قواعد، عدالت، پاسخ‌گویی و مشارکت |
-| **L7** | [WisdomLife & Health](https://github.com/Wisdom-Intercessor/WisdomLife-Health) | زندگی، سلامت، بهزیستی و خدمات مرتبط |
-| **L8** | [Wisdom of Existence & Time](https://github.com/Wisdom-Intercessor/Wisdom-of-Existence-Time) | هستی، زمان، زمین، کیهان و رابطه با جهان بزرگ‌تر |
+| **WisdomNetwork** | [Wisdom-Network](https://github.com/Wisdom-Intercessor/Wisdom-Network) | شبکه، ارتباطات، رسانه و مشارکت |
+| **WisdomChain** | [WisdomChain](https://github.com/Wisdom-Intercessor/WisdomChain) | اعتماد، ثبت و زیرساخت پروتکلی |
+| **WisdomTreasury** | [Wisdom-Treasury](https://github.com/Wisdom-Intercessor/Wisdom-Treasury) | خزانه‌داری، حسابداری و تخصیص منابع |
+| **WisdomKnowledge** | [Wisdom-Knowledge](https://github.com/Wisdom-Intercessor/Wisdom-Knowledge) | دانش، پژوهش، آموزش و یادگیری؛ میزبان معماری WisdomAI |
+| **WisdomGuard** | [Wisdom-Guard](https://github.com/Wisdom-Intercessor/Wisdom-Guard) | امنیت، حفاظت و تاب‌آوری |
+| **WisdomGovernance & Justice** | [Wisdom-Governance-Justice](https://github.com/Wisdom-Intercessor/Wisdom-Governance-Justice) | حکمرانی، عدالت، قواعد و پاسخ‌گویی |
+| **WisdomLife & Health** | [WisdomLife-Health](https://github.com/Wisdom-Intercessor/WisdomLife-Health) | زندگی، سلامت و بهزیستی |
+| **Wisdom of Existence & Time** | [Wisdom-of-Existence-Time](https://github.com/Wisdom-Intercessor/Wisdom-of-Existence-Time) | وجود، زمان و شناخت جهان |
 
-لایه‌ها خانواده‌های مسئولیت معماری هستند؛ این فهرست به‌تنهایی اثبات‌کننده پیاده‌سازی، آمادگی عملیاتی، امنیت ممیزی‌شده یا استقرار همه قابلیت‌ها نیست.
+این جدول فهرست سامانه‌های ثبت‌شده است، نه تعریف شاخه‌های D01–D08 و نه گواه استقرار یا آمادگی عملیاتی همه قابلیت‌ها.
 
----
+## 5. سه قلمرو تجربه | Wis · Dom · Land
 
-## 4. سه صفحه / سه قلمرو | Wis · Dom · Land
+| قلمرو | معنا | دامنه تجربه |
+|---|---|---|
+| **Wis — عالِم صغری** | انسان خردمند | انسان، هویت، خرد، یادگیری، ارزش‌ها، اختیار، زندگی و خودحکمرانی |
+| **Dom — عَـالَم صغری** | جهان ساخته و پیوندی انسان | روابط، جامعه، نهادها، اقتصاد، فناوری، سامانه‌ها و حکمرانی؛ در مقیاس ملی و جهانی |
+| **Land — عالَم کبری** | جهان بیرونی و بزرگ‌تر | ماده، طبیعت، زیست‌بوم‌ها، زمین، سیاره‌ها، ستارگان، کهکشان‌ها و کیهان |
 
-| نام کوتاه | صفحه | معنای معماری | فضای تجربه |
-|---|---|---|---|
-| **Wis** | Page 1 | **عالِم صغری** — انسان خردمند | انسان، هویت، خرد، اختیار، خودحکمرانی و مشارکت |
-| **Dom** | Page 2 | **عَـالَم صغری** — جهان ساخته و پیوندی انسان | فناوری، سامانه‌ها، نهادها، زیرساخت‌ها و زیست‌بوم‌های دیجیتال/اجتماعی |
-| **Land** | Page 3 | **عالم کبری** — جهان بزرگ‌تر | زمین، طبیعت، زیست‌بوم‌ها، هستی، زمان و کیهان |
+**WisDomLand** تجربه یکپارچه و پیوند سه قلمرو است؛ قلمرو چهارم یا شاخه نهم نیست. **WisdomLand** نام درگاه/چشم‌انداز کلان سرزمین خرد است و نباید با برچسب کوتاه صفحه **Land** اشتباه شود.
 
-**WisDomLand = Wis + Dom + Land:** تجربه یکپارچه سه صفحه، نه قلمرو مستقل چهارم.
+- [Wisdom Intercessor](https://wisdomintercessor.com) — هویت مادر و درگاه اصلی زیست‌بوم.
+- [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand) — معماری درگاه و تجربه یکپارچه سه قلمرو.
+- **wisdomland.ir** — مسیر ملی WisdomLand؛ انتشار و بهره‌برداری تابع تأیید مستقل است.
+- **wisdomland.com** — هدف بین‌المللی آینده؛ فعال‌بودن آن در این صفحه ادعا نمی‌شود.
+- **Wisland / wisland.ir** — پروژه‌ای مستقل؛ جزئی از WisdomLand یا تنه WisdomEconomy نیست.
 
-**WisdomLand (نام کامل):** چشم‌انداز آرمان‌شهر حکمت و تمدن حکمت‌محور. این نام با برچسب کوتاه **Land** در تجربه سه‌صفحه‌ای مترادف نیست.
+## 6. سبد افقی، هویت و هوشمندی
 
-### جایگاه دامنه‌ها
+قابلیت‌های افقی می‌توانند در چند دامنه و قلمرو استفاده شوند، اما مصرف افقی به‌معنای انتقال مالکیت یا داده محصول تخصصی نیست.
 
-- **wisdomintercessor.com:** پروژه مادر و درگاه/فضای Realm I؛ محل میزبانی عملیاتی WisdomCore (Layer 0).
-- **wisdomland.ir:** بیان ملی و اولویت پیاده‌سازی WisdomLand در ایران؛ توسعه و انتشار آن تابع تأیید و کنترل آمادگی است.
-- **wisdomland.com:** هدف بین‌المللی آینده؛ وضعیت فعال یا عملیاتی آن در این پروفایل ادعا نمی‌شود.
-- Realm III / Land: مرحله آینده، نیازمند طراحی، شواهد و تأییدهای مستقل.
+- **WisdomID:** هویت و دسترسی مشترک با حداقل‌سازی ویژگی‌ها و مجوزهای لازم.
+- **WisdomAI:** زیرسامانه هوشمندی در معماری WisdomKnowledge؛ قابلیت‌های آن فقط از طریق قرارداد و مجوز مشخص در اختیار سایر سامانه‌ها قرار می‌گیرند.
+- **WisdomAgents / WisdomCopilot / WisdomMini:** قابلیت‌ها یا چارچوب‌های هوشمند با اختیار محدود و قابل حسابرسی؛ جایگاه نهایی هرکدام تابع رجیستری است.
+- **WisdomBridge / WisdomInterop / WisdomStandards:** اتصال، تعامل‌پذیری و استانداردهای مشترک.
+- **WisdomStorage / WisdomOracle / WisdomAnalytics:** زیرساخت ذخیره‌سازی، داده و تحلیل با منشأ، کنترل دسترسی و محدودیت هدف.
 
----
+سامانه مبدأ، مرجع داده عملیاتی خود باقی می‌ماند. WisdomEconomy و قابلیت‌های افقی فقط داده ضروری و مجاز را از طریق قراردادهای نسخه‌بندی‌شده دریافت می‌کنند.
 
-## 5. تفکیک پروژه‌ها
+## 7. حکمرانی، مشارکت و بلوغ
 
-**WisdomLand** بخشی از زیست‌بوم Wisdom Intercessor و چشم‌انداز آرمان‌شهر حکمت است.  
-**Wisland — wisland.ir** پروژه مستقل تجاری-اجتماعی با حوزه فعالیت املاک و زمین است و **جزء WisdomLand نیست**؛ نباید به‌عنوان محصول، ماژول، مخزن، شاخه یا وابستگی این زیست‌بوم ثبت شود.
+چرخه حکمرانی مشارکتی به‌صورت مرحله‌ای طراحی می‌شود: **پیشنهاد → بررسی شواهد و متخصصان → گفت‌وگو → سنجش آمادگی → همه‌پرسی در صورت اقتضا → جمع‌بندی → تصویب مرجع صلاحیت‌دار → پیگیری اجرا**.
 
----
+- هوش مصنوعی می‌تواند شواهد را گردآوری و تحلیل کند، اما نمی‌تواند بازبینی انسانی، رأی یا تصویب جامعه را جعل کند.
+- رأی‌گیری، نتیجه‌سنجی، تصویب و اجرای تصمیم چهار مرحله متمایزند.
+- پاداش احتمالی برای کار و مشارکت قابل ارزیابی است، نه برای جهت رأی یا نتیجه.
+- اطلاعات هویتی، رأی، مشارکت و پاداش باید از نظر دسترسی و هدف پردازش تفکیک شوند.
+- هیچ همه‌پرسی به‌تنهایی اختیار قانونی یا اثر حقوقی بیرونی ایجاد نمی‌کند.
+- تا زمان تصویب قواعد و فعال‌سازی رسمی، اسناد این بخش صرفاً چارچوب طراحی‌اند.
 
-## 6. مخازن و مسیر مطالعه
+مفاهیم، اسناد، نمونه‌های اولیه، قابلیت‌های آزمایشی، محصولات تأییدشده و خدمات عملیاتی باید با وضعیت‌های جداگانه ثبت شوند. وجود مخزن یا سند به‌معنای پیاده‌سازی، انتشار، ممیزی امنیتی، مجوز قانونی یا آماده‌به‌کاری نیست. تغییر در دامنه، DNS، میزبانی، وب‌سایت، انتشار عمومی، انتقال مخزن، صدور دارایی یا عملیات مالی نیازمند مجوز مستقل و صریح است.
 
-- [WisdomCore](https://github.com/Wisdom-Intercessor/WisdomCore) — مرجع Layer 0 و معماری کلان.
-- [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand) — معماری و فضای پیوندی Realm II و چشم‌انداز Wisdom Utopia.
-- [WisdomPact](https://github.com/Wisdom-Intercessor/WisdomPact) — پیمان، اصول و چارچوب بنیادین.
-- [Wisdom-ID](https://github.com/Wisdom-Intercessor/Wisdom-ID) — قابلیت هویت مشترک؛ جایگاه و بلوغ آن باید از رجیستری بررسی شود.
-- [Wisdom-Iran](https://github.com/Wisdom-Intercessor/Wisdom-Iran) — فضای برنامه و معماری ملی ایران.
-- [Eternal-Wisdom-Foundation](https://github.com/Wisdom-Intercessor/Eternal-Wisdom-Foundation) — فضای بنیاد حکمت جاویدان.
+## 8. نقشه مخازن اصلی
 
-این فهرست نقطه شروع است، نه رجیستری کامل. طبقه‌بندی، مالکیت، وضعیت و وابستگی مخازن تابع رجیستری مرجع WisdomCore است.
+- [WisdomCore](https://github.com/Wisdom-Intercessor/WisdomCore) — معماری مادر، Layer 0، رجیستری و تصمیم‌ها.
+- [WisdomEconomy](https://github.com/Wisdom-Intercessor/WisdomEconomy) — تنه درخت و سبد اقتصادی افقی.
+- [WisdomChain](https://github.com/Wisdom-Intercessor/WisdomChain) — زیرساخت فنی L2.
+- [WeCoin](https://github.com/Wisdom-Intercessor/WeCoin) — اسناد محصول WeCoin.
+- [Wisdom-Treasury](https://github.com/Wisdom-Intercessor/Wisdom-Treasury) — خزانه‌داری تخصصی.
+- [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand) — درگاه/تجربه سه قلمرو.
+- [WisdomPact](https://github.com/Wisdom-Intercessor/WisdomPact) — پیمان و اصول بنیادین.
+- [Wisdom-Iran](https://github.com/Wisdom-Intercessor/Wisdom-Iran) — چارچوب و برنامه ملی ایران.
 
----
+این فهرست نقطه شروع است. رجیستری WisdomCore مرجع نهایی طبقه‌بندی، روابط، وضعیت و مقصد مخازن است.
 
-## 7. حاکمیت، بلوغ و مشارکت
+## 9. English overview
 
-- معماری، پیشنهاد، توسعه، نمونه اولیه، پایلوت و عملیات واقعی باید وضعیت‌های جداگانه داشته باشند.
-- از برچسب **Operational / Live** فقط با شواهد معتبر استفاده می‌شود.
-- هر تغییر معماری باید قابل‌ردیابی، بازبینی‌پذیر و نسخه‌بندی‌شده باشد؛ تاریخچه اسناد حفظ می‌شود.
-- حریم خصوصی، حداقل‌سازی داده، امنیت، حقوق انسانی، مسئولیت‌پذیری و قابلیت ممیزی اصول مشترک هستند.
-- این زیست‌بوم جایگزین خودکار نهادهای قانونی، مراجع قضایی، ثبت‌ها، مجوزها یا تصمیم‌گیران دارای اختیار قانونی نیست.
-- وجود مخزن یا سند به‌معنای استقرار، تأیید قانونی، ممیزی امنیتی یا آماده‌بودن محصول نیست.
-- تغییر دامنه، DNS، میزبانی، انتشار عملیاتی یا انتقال مخزن نیازمند تأیید مستقل است.
+**Wisdom Intercessor** is the parent identity and mission of a human-centered wisdom ecosystem. The target Wisdom Tree consists of **five foundational roots, WisdomCore as the Layer 0 meta-architectural core, WisdomEconomy as the connecting trunk, and eight civilizational macro-branches (D01–D08)**. These macro-domains are distinct from the operational systems and product repositories that implement capabilities across them.
 
-برای مشارکت، ابتدا راهنما و محدوده همان مخزن را مطالعه کنید. در Issue یا Pull Request، هدف، دامنه اثر، وابستگی‌ها، ملاحظات امنیتی و حریم خصوصی، و شواهد یا آزمون‌های مرتبط را توضیح دهید. هیچ رمز، اطلاعات شخصی یا اسرار عملیاتی را در مخازن یا Issueهای عمومی قرار ندهید.
+**WisdomEconomy is the trunk**, connecting roots and core to the branches while coordinating cross-domain economic architecture and the horizontal economic portfolio. **WeCoin is the conceptual sap and fruit of the trunk**, while its technical product/runtime relationship remains with **WisdomChain L2**. **WisdomTreasury** is a specialized treasury and accounting subsystem, not WeCoin's parent.
 
----
-
-## 8. English overview
-
-**Wisdom Intercessor** is the parent identity and connecting trunk of a human-centered wisdom ecosystem. Its shared architecture comprises **Layer 0 (WisdomCore), four foundational roots, and eight operational layer families**. The integrated three-page experience is **Wis · Dom · Land (WisDomLand)**: the wise human, the human-created/connective realm, and the greater world. **WisdomLand** names the Wisdom Utopia vision; **Wisland (wisland.ir)** is a separate project.
-
-Architecture status, implementation maturity and deployment status are tracked separately. This organization profile is an orientation page, not a substitute for the canonical registry or approved architecture documents.
+The three experience realms are **Wis** (the wise human), **Dom** (the human-created and connective world), and **Land** (the greater external world). **WisDomLand** is their integrated experience, not a fourth realm. Architecture, implementation maturity and operational status are tracked separately.
 
 ---
 
