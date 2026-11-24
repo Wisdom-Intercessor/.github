@@ -132,7 +132,6 @@ WisdomEconomy جایگزین WisdomCore نیست، مرجع همه تصمیم‌
 
 - [Wisdom Intercessor](https://wisdomintercessor.com) — هویت مادر و درگاه اصلی زیست‌بوم.
 - [WisdomLand](https://github.com/Wisdom-Intercessor/WisdomLand) — معماری درگاه و تجربه یکپارچه سه قلمرو.
-- **Wisland / wisland.ir** — محصول/مسیر تخصصی مرتبط با زمین و محیط‌زیست در زیست‌بوم WisdomLand؛ نام و دامنه آن با WisdomLand و درگاه مادر یکسان نیست و جایگاه آن، تنه درخت یا قلمرو چهارم محسوب نمی‌شود.
 
 ## 6. قابلیت‌های افقی، هویت و هوشمندی
 
